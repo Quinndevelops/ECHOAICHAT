@@ -18,7 +18,7 @@
 
     .chat-container {
       max-width: 100%;
-      margin: 0;
+      margin-top: 2px;
       border-radius: 0;
       box-shadow: none;
       overflow: hidden;
@@ -51,10 +51,11 @@
 }
 
     .chat-input input {
+      border-style: solid;
+      border-color: #007aff;
       flex-grow: 1;
       padding: 5px;
-      border: none;
-      border-radius: 5px;
+      border-radius: 150px;
       background-color: #1c1c1e;
       color: #f5f5f7;
       width: auto;
@@ -65,7 +66,7 @@
       margin-left: 10px;
       padding: 5px 10px;
       border: none;
-      border-radius: 5px;
+      border-radius: 150px;
       background-color: #007aff;
       color: #f5f5f7;
       cursor: pointer;
@@ -74,7 +75,7 @@
     .mic-button {
       padding: 5px 10px;
       border: none;
-      border-radius: 5px;
+      border-radius: 150px;
       background-color: #4caf50;
       color: #f5f5f7;
       cursor: pointer;
@@ -82,7 +83,7 @@
 
     .message {
       padding: 10px;
-      border-radius: 10px;
+      border-radius: 15px;
       margin-bottom: 10px;
       display: flex;
       flex-direction: column;
@@ -131,8 +132,8 @@
   <div class="chat-container">
     <div class="chat-messages" id="chatMessages"></div>
     <div class="chat-input">
-      <input type="text" id="messageInput" placeholder="Type your message...">
-      <button id="sendButton">Send</button>
+      <input type="text" id="messageInput" placeholder="  Type your message...">
+      <button id="sendButton"><?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M18.221,7.206l9.585,9.585c0.879,0.879,0.879,2.317,0,3.195l-0.8,0.801c-0.877,0.878-2.316,0.878-3.194,0  l-7.315-7.315l-7.315,7.315c-0.878,0.878-2.317,0.878-3.194,0l-0.8-0.801c-0.879-0.878-0.879-2.316,0-3.195l9.587-9.585  c0.471-0.472,1.103-0.682,1.723-0.647C17.115,6.524,17.748,6.734,18.221,7.206z" fill="#fff"/></svg></button>
       <button id="micButton" class="mic-button">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mic-fill" viewBox="0 0 16 16">
           <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0z"/>
