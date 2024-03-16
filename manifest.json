@@ -4,17 +4,17 @@
   "description": "Your AI-powered chat assistant",
   "icons": [
     {
-      "src": "/icon-192x192.png",
+      "src": "https://i.imghippo.com/files/YKDvL1710595276.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/icon-512x512.png",
+      "src": "https://i.imghippo.com/files/YKDvL1710595276.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ],
-  "start_url": "/",
+  "start_url": "quinndevelops.github.io/ECHOAICHAT/",
   "display": "standalone",
   "background_color": "#1c1c1e",
   "theme_color": "#007aff"
