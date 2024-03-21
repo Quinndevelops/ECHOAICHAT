@@ -14,7 +14,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "quinndevelops.github.io/ECHOAICHAT/",
+  "start_url": "https://quinndevelops.github.io/ECHOAICHAT/",
   "display": "standalone",
   "background_color": "#1c1c1e",
   "theme_color": "#007aff"
